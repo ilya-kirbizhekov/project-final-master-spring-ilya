@@ -55,8 +55,31 @@ For example, you can set environment variables in a Unix-like system before runn
 cmd
 Copy code:
 >
-set SENSITIVE_API_KEY=your-api-key
-set SENSITIVE_DATABASE_PASSWORD=your-password
+MAC
+
+    @Value("${spring.datasource.url}")
+    private String dataSourceUrl;
+
+    @Value("${SENSITIVE_API_KEY}")
+    private String apiKey;
+
+    @Value("${SENSITIVE_DATABASE_PASSWORD}")
+    private String databasePassword;
+
+>
+> 
+> >
+ MY WINDOWS
+
+    @Value("${spring.datasource.url}")
+    private String dataSourceUrl;
+
+    @Value("${SENSITIVE_API_KEY}")
+    private String apiKey;
+
+    @Value("${SENSITIVE_DATABASE_PASSWORD}")
+    private String databasePassword;
+
 >
 > 
 Secure Environment Variables:

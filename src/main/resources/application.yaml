@@ -70,6 +70,7 @@ spring:
             redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
             authorization-grant-type: authorization_code
             scope: read_user
+
         provider:
 
           gitlab:
