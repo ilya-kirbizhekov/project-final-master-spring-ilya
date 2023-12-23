@@ -26,5 +26,7 @@
 
 - https://habr.com/ru/articles/259055/
 
-Список выполненных задач: (na etoy machine net russkoy klaviaturu)
+Список выполненных задач: 
+(na etoy machine net russkoy klaviaturu)
 ... zadacha 1 viplnena
+Сбилдить приложение
