@@ -38,7 +38,9 @@
 
 ## ЗАДАЧА 2. Удалить социальные сети:
 
+removed html tags
 
+C:\JavaRush\Module5\project-final-master-spring-ilya\resources\view\login.html
 
 
 ## ЗАДАЧА 3. Вынести чуствительную информацию.:
