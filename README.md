@@ -12,7 +12,7 @@ C:\JavaRush\Module5\project-final-master-spring-ilya\resources\view\login.html
 
 ## ЗАДАЧА 3. Вынести чуствительную информацию.:
 
-User: 
+Ilya Kirbizhekov: 
 it is required when application starts to read parameters from environment path variables
 ChatGPT:
 If you want to read sensitive data from environment variables instead of storing them directly in property files, Spring Boot provides a convenient way to achieve this. Here's how you can modify your Spring Boot application to read sensitive data from environment variables:
