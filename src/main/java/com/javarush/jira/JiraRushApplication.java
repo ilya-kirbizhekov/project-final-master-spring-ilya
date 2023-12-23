@@ -21,7 +21,10 @@ public class JiraRushApplication {
         MachineConfig myComponent = context.getBean(MachineConfig.class);
 
         System.out.println(myComponent.getDataBaseLogin());
-
+        System.out.println(myComponent.getDataBasePassword());
+        System.out.println(myComponent.getMailHost());
+        System.out.println(myComponent.getMailUserName());
+        System.out.println(myComponent.getMailPassword());
 
     }
 }
