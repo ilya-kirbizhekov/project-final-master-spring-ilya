@@ -33,14 +33,14 @@
 
 ## ЗАДАЧА 3. Вынести чуствительную информацию.:
 
-User> 
+User: 
 it is required when application starts to read parameters from environment path variables
-ChatGPT>
+ChatGPT:
 If you want to read sensitive data from environment variables instead of storing them directly in property files, Spring Boot provides a convenient way to achieve this. Here's how you can modify your Spring Boot application to read sensitive data from environment variables:
-----
+
 Remove Sensitive Data from Property Files:
 Remove the sensitive data from your application.properties or application.yml file.
-----
+
 Read from Environment Variables:
 Update your Spring configuration classes to read the sensitive data from environment variables. You can use the @Value annotation to inject values from environment variables.
 
