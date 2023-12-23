@@ -14,6 +14,7 @@ import java.time.Duration;
 @Setter
 public class AppProperties {
 
+
     /**
      * Host url
      */
@@ -41,4 +42,6 @@ public class AppProperties {
         int corePoolSize;
         int maxPoolSize;
     }
+
+
 }
