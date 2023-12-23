@@ -33,6 +33,7 @@ public class AppConfig {
     private final AppProperties appProperties;
     private final Environment env;
 
+
     @Bean("mailExecutor")
     Executor getAsyncExecutor() {
         return new ThreadPoolTaskExecutor() {
@@ -51,6 +52,7 @@ public class AppConfig {
     public boolean isTest() {
         return env.acceptsProfiles(Profiles.of("test"));
     }
+
 
     @Autowired
     void configureAndStoreObjectMapper(ObjectMapper objectMapper) {

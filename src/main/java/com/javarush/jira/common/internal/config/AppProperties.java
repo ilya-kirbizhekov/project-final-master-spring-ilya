@@ -14,7 +14,6 @@ import java.time.Duration;
 @Setter
 public class AppProperties {
 
-
     /**
      * Host url
      */
