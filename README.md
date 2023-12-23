@@ -38,7 +38,7 @@
 
 ## ЗАДАЧА 2. Удалить социальные сети:
 
-removed html tags
+Html tags are have been removed
 
 C:\JavaRush\Module5\project-final-master-spring-ilya\resources\view\login.html
 
