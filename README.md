@@ -55,7 +55,7 @@ For example, you can set environment variables in a Unix-like system before runn
 cmd
 Copy code:
 >
-MAC
+TANYA's MAC
 
     export JR_DB_LOGIN=jira
     export JR_DB_PASSWORD=JiraRush
