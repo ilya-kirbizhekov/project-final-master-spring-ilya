@@ -93,3 +93,13 @@ set SENSITIVE_DATABASE_PASSWORD=your-password
 Secure Environment Variables:
 Ensure that your environment variables are properly secured. Avoid exposing sensitive information in logs or unintentionally sharing them. Consider using tools or methods that are suitable for securing environment variables in your deployment environment.
 By following these steps, your Spring Boot application will read sensitive data from environment variables at runtime. This approach is more secure than storing sensitive information directly in configuration files, especially when dealing with credentials or API keys.
+
+## ЗАДАЧА 5. Написать тесты для всех публичных методов контроллера ProfileRestController. Хоть методов только 2, но тестовых методов должно быть больше, т.к. нужно проверить success and unsuccess path.:
+
+
+
+## ЗАДАЧА 6. Сделать рефакторинг метода com.javarush.jira.bugtracking.attachment.FileUtil#upload чтоб он использовал современный подход для работы с файловой системмой. Easy task:
+
+
+
+## ЗАДАЧА 7. Добавить новый функционал: добавления тегов к задаче (REST API + реализация на сервисе). Фронт делать необязательно. Таблица task_tag уже создана:
