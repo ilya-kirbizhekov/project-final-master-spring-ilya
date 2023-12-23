@@ -92,6 +92,17 @@ Secure Environment Variables:
 Ensure that your environment variables are properly secured. Avoid exposing sensitive information in logs or unintentionally sharing them. Consider using tools or methods that are suitable for securing environment variables in your deployment environment.
 By following these steps, your Spring Boot application will read sensitive data from environment variables at runtime. This approach is more secure than storing sensitive information directly in configuration files, especially when dealing with credentials or API keys.
 
+    jr.db.login = ${JR_DB_LOGIN}
+    jr.db.password = ${JR_DB_PASSWORD}
+    jr.oauth.google.client.id = ${JR_OAUTH_GOOGLE_CLIENT_ID}
+    jr.oauth.google.client.secret = ${JR_OAUTH_GOOGLE_CLIENT_SECRET}
+    jr.oauth.github.client.id=${JR_OAUTH_GITHUB_CLIENT_ID}
+    jr.oauth.github.client.secret=${JR_OAUTH_GITHUB_CLIENT_SECRET}
+    jr.oauth.gitlab.client.id=${JR_OAUTH_GITLAB_CLIENT_ID}
+    jr.oauth.gitlab.client.secret=${JR_OAUTH_GITLAB_CLIENT_SECRET}
+    jr.mail.host = ${JR_MAIL_HOST}
+    jr.mail.user.name = ${JR_MAIL_USER_NAME}
+    jr.mail.pwd = ${JR_MAIL_PWD}
 
 
 ## ЗАДАЧА 5. Написать тесты для всех публичных методов контроллера ProfileRestController. Хоть методов только 2, но тестовых методов должно быть больше, т.к. нужно проверить success and unsuccess path.:
